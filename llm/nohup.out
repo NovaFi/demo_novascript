@@ -1,0 +1,1144 @@
+/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/__init__.py:34: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running on local URL:  http://127.0.0.1:7860
+Running on public URL: https://a3964a2c8f5780a4bf.gradio.live
+
+This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+
+Questioning phase
+
+
+Questioning phase
+
+
+Questioning phase
+
+
+Questioning phase
+
+
+Questioning phase
+
+
+
+Terminiating ...
+
+
+
+Generation phase
+
+
+Generation phase
+
+
+Questioning phase
+
+
+Questioning phase
+
+
+Generation phase
+
+
+
+Terminiating ...
+
+
+
+Generation phase
+
+/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/__init__.py:34: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running on local URL:  http://127.0.0.1:7860
+Running on public URL: https://1075c289ac4f0b30da.gradio.live
+
+This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+
+Questioning phase
+
+
+Questioning phase
+
+
+Questioning phase
+
+
+Questioning phase
+
+
+
+Terminiating ...
+
+
+
+Generation phase
+
+/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/__init__.py:34: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running on local URL:  http://127.0.0.1:7861
+Running on public URL: https://dd164e4eaaaf78208f.gradio.live
+
+This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+
+Questioning phase
+
+
+
+Response Okay, let's gather some information to build a hedging strategy for your crypto investments.
+
+1) What is your goal with hedging? Is it to protect against downside risk, generate extra income, or something else? 
+
+
+
+Questioning phase
+
+
+
+Response Got it, protecting against downside risk is the main goal. A few more questions:
+
+2) What crypto assets do you currently hold or want to hedge?
+
+3) How much capital are you looking to allocate towards hedging?
+
+4) What is your risk tolerance level? Are you okay with capping your upside potential in exchange for downside protection?
+
+5) Do you want to hedge using options strategies (buying puts), futures contracts, or something else?
+
+Please provide answers to these questions, and feel free to add any other relevant details. The more information I have, the better I can tailor the hedging strategy for you. 
+
+
+
+Generation phase
+
+
+Questioning phase
+
+
+
+Response Okay, based on the information provided:
+
+Parameters:
+```
+- Asset: Bitcoin (BTC)  
+- Hedging Capital: $100,000
+- Risk Tolerance: Medium (willing to cap upside for downside protection)
+- Preferred Hedging Method: Options strategies (buying protective puts)
+```
+
+Potential Automation Logic:
+```
+1. Monitor BTC price movements 
+2. When BTC price drops below a predetermined level (e.g. 20% from purchase price), automatically purchase BTC put options as a hedge
+3. Put options strike price set slightly below current BTC price
+4. Option expiration date set 3-6 months out 
+5. Allocate 10-20% of $100k towards put option premiums
+6. If BTC continues dropping, put options increase in value, offsetting unrealized losses
+7. If BTC rebounds, let put options expire worthless, capping upside but protecting downside
+```
+
+The logic aims to provide downside protection on your BTC holdings using put options, while still allowing some upside participation if BTC recovers. The put option strike prices, expiration dates, and capital allocation can be adjusted based on your specific risk profile.
+
+Chat will be cleared, do you want to proceed with Novascript generation? TERMINATE 
+
+
+
+
+Terminiating ...
+
+
+
+Generation phase
+
+
+
+Response ```
+- Asset: Solana (SOL)
+- Hedging Capital: $100,000  
+- Risk Tolerance: Medium (willing to cap upside for downside protection)
+- Preferred Hedging Method: Options strategies (buying protective puts)
+```
+
+Potential Automation Logic:
+```
+1. Monitor SOL price movements
+2. When SOL price drops below a predetermined level (e.g. 20% from purchase price), automatically purchase SOL put options as a hedge  
+3. Put options strike price set slightly below current SOL price
+4. Option expiration date set 3-6 months out
+5. Allocate 10-20% of $100k towards put option premiums
+6. If SOL continues dropping, put options increase in value, offsetting unrealized losses
+7. If SOL rebounds, let put options expire worthless, capping upside but protecting downside
+```
+
+The logic aims to provide downside protection on your SOL holdings using put options, while still allowing some upside participation if SOL recovers. The put option strike prices, expiration dates, and capital allocation can be adjusted based on your specific risk profile.
+
+Chat will be cleared, do you want to proceed with Novascript generation? 
+
+
+
+Generation phase
+
+
+
+Response ```
+- Asset: Bitcoin (BTC)
+- Hedging Capital: $100,000
+- Risk Tolerance: Medium (willing to cap upside for downside protection) 
+- Preferred Hedging Method: Options strategies (buying protective puts)
+```
+
+Potential Automation Logic:
+```
+1. Monitor BTC price movements
+2. When BTC price drops below a predetermined level (e.g. 20% from purchase price), automatically purchase BTC put options as a hedge
+3. Put options strike price set slightly below current BTC price
+4. Option expiration date set 3-6 months out
+5. Allocate 10-20% of $100k towards put option premiums
+6. If BTC continues dropping, put options increase in value, offsetting unrealized losses  
+7. If BTC rebounds, let put options expire worthless, capping upside but protecting downside
+```
+
+The logic aims to provide downside protection on your BTC holdings using put options, while still allowing some upside participation if BTC recovers. The put option strike prices, expiration dates, and capital allocation can be adjusted based on your specific risk profile.
+
+Chat will be cleared, do you want to proceed with Novascript generation? TERMINATE 
+
+
+
+
+Terminiating ...
+
+
+
+Generation phase
+
+
+
+Response ```
+- Asset: Bitcoin (BTC)
+- Hedging Capital: $200,000 
+- Risk Tolerance: Medium (willing to cap upside for downside protection)
+- Preferred Hedging Method: Options strategies (buying protective puts)
+```
+
+Potential Automation Logic:
+```
+1. Monitor BTC price movements  
+2. When BTC price drops below a predetermined level (e.g. 20% from purchase price), automatically purchase BTC put options as a hedge
+3. Put options strike price set slightly below current BTC price
+4. Option expiration date set 3-6 months out
+5. Allocate 10-20% of $200k towards put option premiums  
+6. If BTC continues dropping, put options increase in value, offsetting unrealized losses
+7. If BTC rebounds, let put options expire worthless, capping upside but protecting downside
+```
+
+The logic aims to provide downside protection on your BTC holdings using put options, while still allowing some upside participation if BTC recovers. The put option strike prices, expiration dates, and capital allocation can be adjusted based on your specific risk profile. 
+
+Chat will be cleared, do you want to proceed with Novascript generation? TERMINATE 
+
+
+
+
+Terminiating ...
+
+
+
+Generation phase
+
+
+
+Response ```
+- Asset: Bitcoin (BTC)  
+- Hedging Capital: $200,000
+- Risk Tolerance: Very High (willing to maximize upside potential)
+- Preferred Hedging Method: Options strategies (selling cash-secured puts)
+```
+
+Potential Automation Logic:
+```
+1. Monitor BTC price movements
+2. When BTC price drops, sell BTC cash-secured puts with strike below current price 
+3. Set put strike e.g. 20% below current BTC price
+4. Set put expiration 2-4 weeks out  
+5. Collect premium from selling the cash-secured puts
+6. If BTC continues dropping past strike, get assigned and buy BTC at discount
+7. If BTC rallies, keep premium as income  
+```
+
+This strategy aims to capitalize on BTC's high volatility by selling cash-secured puts to collect premiums. With a very high risk tolerance, the strikes are set aggressively below market to maximize potential upside if assigned BTC at a discount.
+
+Of course, unlimited downside risk exists if BTC crashes below the strike prices before expiration.
+
+Do you confirm proceeding with Novascript generation for this high risk BTC strategy?
+TERMINATE 
+
+
+
+
+Terminiating ...
+
+
+
+Generation phase
+
+
+
+Response ```
+- Asset: Solana (SOL)
+- Hedging Capital: $200,000  
+- Risk Tolerance: Very High (willing to maximize upside potential)
+- Preferred Hedging Method: Options strategies (selling cash-secured puts)
+```
+
+Potential Automation Logic:
+```  
+1. Monitor SOL price movements
+2. When SOL price drops, sell SOL cash-secured puts with strike below current price
+3. Set put strike e.g. 20% below current SOL price  
+4. Set put expiration 2-4 weeks out
+5. Collect premium from selling the cash-secured puts  
+6. If SOL continues dropping past strike, get assigned and buy SOL at discount
+7. If SOL rallies, keep premium as income
+```
+
+This strategy aims to capitalize on SOL's volatility by selling cash-secured puts to collect premiums. With a very high risk tolerance, the strikes are set aggressively below market to maximize potential upside if assigned SOL at a discount. 
+
+Of course, unlimited downside risk exists if SOL crashes below the strike prices before expiration.
+
+Do you confirm proceeding with Novascript generation for this high risk SOL strategy?
+TERMINATE 
+
+
+
+
+Terminiating ...
+
+
+
+Generation phase
+
+
+
+Response ```
+- Asset: Solana (SOL)  
+- Hedging Capital: $100,000
+- Risk Tolerance: Very High (willing to maximize upside potential)
+- Preferred Hedging Method: Options strategies (selling cash-secured puts)
+```
+
+Potential Automation Logic:
+```
+1. Monitor SOL price movements  
+2. When SOL price drops, sell SOL cash-secured puts with strike below current price
+3. Set put strike e.g. 20% below current SOL price
+4. Set put expiration 2-4 weeks out 
+5. Collect premium from selling the cash-secured puts
+6. If SOL continues dropping past strike, get assigned and buy SOL at discount  
+7. If SOL rallies, keep premium as income
+```
+
+This strategy aims to capitalize on SOL's volatility by selling cash-secured puts to collect premiums. With a very high risk tolerance, the strikes are set aggressively below market to maximize potential upside if assigned SOL at a discount.
+
+Of course, unlimited downside risk exists if SOL crashes below the strike prices before expiration.  
+
+Do you confirm proceeding with Novascript generation for this high risk SOL strategy?
+TERMINATE 
+
+
+
+
+Terminiating ...
+
+
+
+Generation phase
+
+
+
+Response ```
+- Asset: Solana (SOL)
+- Hedging Capital: $100,000  
+- Risk Tolerance: Medium
+- Preferred Hedging Method: Options strategies (selling cash-secured puts)
+```
+
+Potential Automation Logic: 
+```
+1. Monitor SOL price movements
+2. When SOL price drops, sell SOL cash-secured puts with strike 5-10% below current price
+3. Set put expiration 4-8 weeks out
+4. Collect premium from selling the cash-secured puts  
+5. If SOL continues dropping past strike, get assigned and buy SOL at discount
+6. If SOL rallies, keep premium as income
+```
+
+This adjusted strategy takes a more moderate approach by setting put strike prices 5-10% below market and longer 4-8 week expirations. It aims to provide downside protection while still collecting premiums if SOL remains range-bound or rises.
+
+The lower strikes and longer expirations reduce premium income potential compared to the very high risk strategy, but also limit downside risk if SOL crashes hard.
+
+Do you confirm proceeding with Novascript generation for this medium risk SOL strategy? 
+
+
+
+Generation phase
+
+
+
+Response ```javascript
+// Novascript implementation
+
+// Import required libraries
+const web3 = require('@solana/web3.js');
+const pythOracle = require('@pyth-network/solana');
+
+// Define global constants
+const SOL_MINT = new web3.PublicKey('So11111111111111111111111111111111111111112');
+const SOL_DECIMALS = 9;
+const HEDGING_CAPITAL = 100000;
+const RISK_TOLERANCE = 'medium';
+const PREFERRED_METHOD = 'sell-cash-secured-puts';
+
+// Initialize Solana connection
+const connection = new web3.Connection('https://api.mainnet-beta.solana.com');
+
+// Get current SOL price from Pyth oracle
+async function getCurrentPrice() {
+  const price = await pythOracle.getPrice(connection, SOL_MINT, 'usd');
+  return price.toNumber() / 10 ** SOL_DECIMALS;
+}
+
+// Calculate put strike price based on risk tolerance
+function calculateStrikePrice(currentPrice) {
+  if (RISK_TOLERANCE === 'high') {
+    return currentPrice * 0.8; // 20% below current price
+  } else if (RISK_TOLERANCE === 'medium') {
+    return currentPrice * 0.95; // 5% below current price
+  } else {
+    return currentPrice * 0.9; // 10% below current price
+  }
+}
+
+// Calculate put expiration date based on risk tolerance
+function calculateExpirationDate() {
+  const today = new Date();
+  if (RISK_TOLERANCE === 'high') {
+    return new Date(today.getTime() + 14 * 24 * 60 * 60 * 1000); // 2 weeks
+  } else if (RISK_TOLERANCE === 'medium') {
+    return new Date(today.getTime() + 28 * 24 * 60 * 60 * 1000); // 4 weeks
+  } else {
+    return new Date(today.getTime() + 56 * 24 * 60 * 60 * 1000); // 8 weeks
+  }
+}
+
+// Main execution logic
+async function run() {
+  const currentPrice = await getCurrentPrice();
+  const strikePrice = calculateStrikePrice(currentPrice);
+  const expirationDate = calculateExpirationDate();
+
+  // Sell cash-secured put option
+  const premium = await sellCashSecuredPut(strikePrice, expirationDate);
+  console.log(`Sold cash-secured put option with strike $${strikePrice} and expiration ${expirationDate.toDateString()}. Collected premium: $${premium}`);
+}
+
+// Placeholder for selling cash-secured put option
+async function sellCashSecuredPut(strikePrice, expirationDate) {
+  // Implementation for selling put option on Solana DeFi platform
+  return 1000; // Example premium value
+}
+
+// Run the script
+run();
+```
+
+This Novascript implementation includes the following functionality:
+
+1. Import required libraries for interacting with Solana and Pyth oracle.
+2. Define global constants like token mint addresses, hedging capital, risk tolerance, and preferred method.
+3. Initialize connection to the Solana mainnet.
+4. Fetch the current SOL price from the Pyth oracle.
+5. Calculate the put strike price based on the risk tolerance (5-10% below current price for medium risk).
+6. Calculate the put expiration date based on the risk tolerance (4 weeks for medium risk).
+7. Execute the main logic to sell a cash-secured put option with the calculated strike price and expiration date.
+8. Log the details of the sold put option, including strike price, expiration date, and collected premium.
+
+Note: The `sellCashSecuredPut` function is a placeholder and needs to be implemented to interact with a specific Solana DeFi platform for executing the put option sale.
+
+```bash
+# Compile Novascript to bytecode
+novac novascript.js -o novascript.bc
+
+# Deploy Novascript bytecode to Solana blockchain
+novadeploy novascript.bc
+
+# Create SPL Token with Properties
+spl-token create-token 
+
+
+
+Generation phase
+
+
+
+Terminiating ...
+
+
+
+Generation phase
+
+
+
+Response ```javascript
+// Parameters
+const depositAmount = 1000;
+const stableCoin = "USDC";
+const cryptoAsset = "BTC";
+const strategy = "Dollar Cost Average";
+const platforms = ["Meteora"];
+
+// Automation Logic
+const numInstalments = 10;
+const instalmentAmount = depositAmount / numInstalments;
+
+for (let i = 0; i < numInstalments; i++) {
+  const currentPrice = await getPriceFromOracle(cryptoAsset);
+  const amountToSpend = instalmentAmount / currentPrice;
+
+  const swapIx = swapInstruction(stableCoin, cryptoAsset, amountToSpend);
+  await sendTransaction(swapIx, platforms);
+
+  console.log(`Bought ${amountToSpend} ${cryptoAsset} at ${currentPrice} ${stableCoin}`);
+}
+```
+
+TERMINATE 
+
+
+
+
+Terminiating ...
+
+
+/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/__init__.py:34: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running on local URL:  http://127.0.0.1:7860
+Running on public URL: https://376c86a875b5f19589.gradio.live
+
+This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/__init__.py:34: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running on local URL:  http://127.0.0.1:7860
+Running on public URL: https://612561c0d4631a1cad.gradio.live
+
+This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+
+Questioning phase
+
+
+Questioning phase
+
+
+Questioning phase
+
+
+Questioning phase
+
+
+Questioning phase
+
+
+Questioning phase
+
+
+
+Terminiating ...
+
+
+
+Questioning phase
+
+
+
+Terminiating ...
+
+
+
+Generation phase
+
+Traceback (most recent call last):
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/connection.py", line 395, in request
+    self.endheaders()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/http/client.py", line 1247, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/http/client.py", line 1007, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/http/client.py", line 947, in send
+    self.connect()
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/connection.py", line 243, in connect
+    self.sock = self._new_conn()
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/connection.py", line 218, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x1180c4400>: Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/util/retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5007): Max retries exceeded with url: /deploy (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1180c4400>: Failed to establish a new connection: [Errno 61] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/queueing.py", line 501, in call_prediction
+    output = await route_utils.call_process_api(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/route_utils.py", line 252, in call_process_api
+    output = await app.get_blocks().process_api(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/blocks.py", line 1664, in process_api
+    result = await self.call_function(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/blocks.py", line 1205, in call_function
+    prediction = await anyio.to_thread.run_sync(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/anyio/to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/anyio/_backends/_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/anyio/_backends/_asyncio.py", line 807, in run
+    result = context.run(func, *args)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/utils.py", line 690, in wrapper
+    response = f(*args, **kwargs)
+  File "/Users/Ryan/SQOIN/grant_solana/llm/compiler_app.py", line 17, in submit
+    response = requests.post(url, data=json_data, headers=headers)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5007): Max retries exceeded with url: /deploy (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1180c4400>: Failed to establish a new connection: [Errno 61] Connection refused'))
+Traceback (most recent call last):
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/connection.py", line 395, in request
+    self.endheaders()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/http/client.py", line 1247, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/http/client.py", line 1007, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/http/client.py", line 947, in send
+    self.connect()
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/connection.py", line 243, in connect
+    self.sock = self._new_conn()
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/connection.py", line 218, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x137b0bc40>: Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/util/retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5007): Max retries exceeded with url: /deploy (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x137b0bc40>: Failed to establish a new connection: [Errno 61] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/queueing.py", line 501, in call_prediction
+    output = await route_utils.call_process_api(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/route_utils.py", line 252, in call_process_api
+    output = await app.get_blocks().process_api(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/blocks.py", line 1664, in process_api
+    result = await self.call_function(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/blocks.py", line 1205, in call_function
+    prediction = await anyio.to_thread.run_sync(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/anyio/to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/anyio/_backends/_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/anyio/_backends/_asyncio.py", line 807, in run
+    result = context.run(func, *args)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/utils.py", line 690, in wrapper
+    response = f(*args, **kwargs)
+  File "/Users/Ryan/SQOIN/grant_solana/llm/compiler_app.py", line 17, in submit
+    response = requests.post(url, data=json_data, headers=headers)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5007): Max retries exceeded with url: /deploy (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x137b0bc40>: Failed to establish a new connection: [Errno 61] Connection refused'))
+
+Questioning phase
+
+
+Generation phase
+
+
+
+Terminiating ...
+
+
+
+Generation phase
+
+
+
+Terminiating ...
+
+
+/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/__init__.py:34: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running on local URL:  http://127.0.0.1:7860
+Running on public URL: https://76a0c94ff3b0aa6f33.gradio.live
+
+This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+
+Questioning phase
+
+Great, dollar cost averaging (DCA) is a simple and effective strategy for long-term investing. To set up your DCA strategy, I'll need some more information.
+
+1. What is your preferred deposit amount for each DCA purchase?
+False
+
+Generation phase
+
+```
+Parameters:
+- Asset to buy: SOL
+- Dollar amount per purchase: $100 
+- Purchase frequency: Weekly
+- Exchange: Coinbase Pro
+
+Automation Logic:
+1. Every Monday at 9:00 AM PST:
+   a) Get the current SOL/USD price from Coinbase Pro API
+   b) Calculate the amount of SOL to purchase based on the $100 budget
+   c) Place a market buy order for the calculated amount of SOL
+2. If the purchase is successful, log the transaction details (timestamp, amount purchased, price)
+3. If the purchase fails due to insufficient funds or API error, send an email notification
+4. Keep a running total of the SOL acquired and the total amount invested
+5. Generate a monthly report of all transactions and send it via email
+```
+
+Please confirm if you would like to proceed with generating the Novascript based on these parameters and automation logic.
+
+TERMINATE
+True
+
+
+Terminiating ...
+
+
+
+Generation phase
+
+```javascript
+// Novascript for Dollar Cost Averaging SOL on Coinbase Pro
+
+// Define constants
+const ASSET = 'SOL';
+const AMOUNT = 100;  // in USD
+const FREQUENCY = 'weekly';
+const EXCHANGE = 'coinbase_pro';
+
+// Define variables
+let totalSOL = 0;
+let totalInvested = 0;
+let lastPurchaseTimestamp = 0;
+let transactionLog = [];
+
+// Define function to get current SOL/USD price from Coinbase Pro API
+function getPrice() {
+  const price = oracleRequest('coinbase_pro', 'SOL/USD');
+  return price;
+}
+
+// Define function to calculate amount of SOL to purchase
+function calcSOLAmount(usdAmount, solPrice) {
+  const solAmount = usdAmount / solPrice;
+  return solAmount;
+}
+
+// Define function to place market buy order on Coinbase Pro
+function placeBuyOrder(solAmount) {
+  const order = exchangeRequest('coinbase_pro', 'buy', 'SOL/USD', solAmount, 'market');
+  return order;
+}
+
+// Define function to log transaction details
+function logTransaction(timestamp, solAmount, solPrice) {
+  const transaction = {
+    timestamp: timestamp,
+    solAmount: solAmount,
+    solPrice: solPrice,
+    usdAmount: AMOUNT
+  };
+  transactionLog.push(transaction);
+}
+
+// Define function to send email notification
+function sendEmail(subject, body) {
+  // Implementation to send email using an email service API
+}
+
+// Main automation logic
+function runAutomation() {
+  const currentTimestamp = getTimestamp();
+
+  // Check if it's time to make a purchase
+  if (currentTimestamp - lastPurchaseTimestamp >= 7 * 24 * 60 * 60 * 1000) {
+    const solPrice = getPrice();
+    const solAmount = calcSOLAmount(AMOUNT, solPrice);
+
+    const order = placeBuyOrder(solAmount);
+
+    if (order.status === 'filled') {
+      logTransaction(currentTimestamp, solAmount, solPrice);
+      totalSOL += solAmount;
+      totalInvested += AMOUNT;
+      lastPurchaseTimestamp = currentTimestamp;
+    } else {
+      sendEmail('DCA Purchase Failed', 'Failed to buy SOL. Check Coinbase Pro account.');
+    }
+  }
+
+  // Generate monthly report
+  if (currentTimestamp - lastPurchaseTimestamp >= 30 * 24 * 60 * 60 * 1000) {
+    const report = generateMonthlyReport();
+    sendEmail('Monthly DCA Report', report);
+  }
+}
+
+// Schedule the automation to run every Monday at 9:00 AM PST
+schedule(runAutomation, 'weekly', 'Monday', '09:00', 'America/Los_Angeles');
+```
+
+To compile, deploy, and create an SPL token with properties:
+
+```bash
+# Compile the Novascript
+novac dca_script.nova
+
+# Deploy the compiled script to Solana
+nova deploy dca_script.nvc --network mainnet-beta
+
+# Create a new SPL token
+spl-token create-token --decimals 9 --name "DCA Token" --symbol DCA
+
+# Set token properties (assumes token address is stored in $TOKEN_ADDRESS)
+spl-token set-property $TOKEN_ADDRESS --owner $OWNER_ADDRESS --property "strategy" --value "Dollar Cost Averaging SOL on Coinbase Pro"
+spl-token set-property $TOKEN_ADDRESS --owner $OWNER_ADDRESS --property "asset" --value "SOL" 
+spl-token set-property $TOKEN_ADDRESS --owner $OWNER_ADDRESS --property "amount" --value "100"
+spl-token set-property $TOKEN_ADDRESS --owner $OWNER_ADDRESS --property "frequency" --value "weekly"
+spl-token set-property $TOKEN_ADDRESS --owner $OWNER_ADDRESS --property "exchange" --value "Coinbase Pro"
+```
+
+This example demonstrates creating a Novascript to automate dollar cost averaging of SOL on Coinbase Pro, compiling and deploying the script, creating a new SPL token, and setting properties on the
+False
+
+Questioning phase
+
+
+
+Exception during Claude request : Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}}
+
+
+Switching to OpenAI
+
+
+
+Exception during openAI request : Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-NEpoJ***************************************lxHl. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+
+GPT-4 request failed, falling back to GPT-3.5: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-NEpoJ***************************************lxHl. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/queueing.py", line 501, in call_prediction
+    output = await route_utils.call_process_api(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/route_utils.py", line 252, in call_process_api
+    output = await app.get_blocks().process_api(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/blocks.py", line 1664, in process_api
+    result = await self.call_function(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/blocks.py", line 1205, in call_function
+    prediction = await anyio.to_thread.run_sync(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/anyio/to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/anyio/_backends/_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/anyio/_backends/_asyncio.py", line 807, in run
+    result = context.run(func, *args)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/utils.py", line 690, in wrapper
+    response = f(*args, **kwargs)
+  File "app.py", line 77, in respond
+  File "/Users/Ryan/SQOIN/grant_solana/llm/inference_functions.py", line 124, in claude_prompt
+    return openai_prompt(prompt=prompt, systemPrompt=systemPrompt, history=history)
+  File "/Users/Ryan/SQOIN/grant_solana/llm/inference_functions.py", line 69, in openai_prompt
+    res = client.chat.completions.create(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/openai/_utils/_utils.py", line 301, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/openai/resources/chat/completions.py", line 598, in create
+    return self._post(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/openai/_base_client.py", line 1096, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/openai/_base_client.py", line 856, in request
+    return self._request(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/openai/_base_client.py", line 908, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-NEpoJ***************************************lxHl. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+Questioning phase
+
+
+
+Exception during Claude request : Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}}
+
+
+Switching to OpenAI
+
+
+
+Exception during openAI request : Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-NEpoJ***************************************lxHl. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+
+GPT-4 request failed, falling back to GPT-3.5: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-NEpoJ***************************************lxHl. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/queueing.py", line 501, in call_prediction
+    output = await route_utils.call_process_api(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/route_utils.py", line 252, in call_process_api
+    output = await app.get_blocks().process_api(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/blocks.py", line 1664, in process_api
+    result = await self.call_function(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/blocks.py", line 1205, in call_function
+    prediction = await anyio.to_thread.run_sync(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/anyio/to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/anyio/_backends/_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/anyio/_backends/_asyncio.py", line 807, in run
+    result = context.run(func, *args)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/utils.py", line 690, in wrapper
+    response = f(*args, **kwargs)
+  File "app.py", line 77, in respond
+  File "/Users/Ryan/SQOIN/grant_solana/llm/inference_functions.py", line 124, in claude_prompt
+    return openai_prompt(prompt=prompt, systemPrompt=systemPrompt, history=history)
+  File "/Users/Ryan/SQOIN/grant_solana/llm/inference_functions.py", line 69, in openai_prompt
+    res = client.chat.completions.create(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/openai/_utils/_utils.py", line 301, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/openai/resources/chat/completions.py", line 598, in create
+    return self._post(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/openai/_base_client.py", line 1096, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/openai/_base_client.py", line 856, in request
+    return self._request(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/openai/_base_client.py", line 908, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-NEpoJ***************************************lxHl. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/connection.py", line 395, in request
+    self.endheaders()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/http/client.py", line 1247, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/http/client.py", line 1007, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/http/client.py", line 947, in send
+    self.connect()
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/connection.py", line 243, in connect
+    self.sock = self._new_conn()
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/connection.py", line 218, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x12a990dc0>: Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/urllib3/util/retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5007): Max retries exceeded with url: /deploy (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12a990dc0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/queueing.py", line 501, in call_prediction
+    output = await route_utils.call_process_api(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/route_utils.py", line 252, in call_process_api
+    output = await app.get_blocks().process_api(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/blocks.py", line 1664, in process_api
+    result = await self.call_function(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/blocks.py", line 1205, in call_function
+    prediction = await anyio.to_thread.run_sync(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/anyio/to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/anyio/_backends/_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/anyio/_backends/_asyncio.py", line 807, in run
+    result = context.run(func, *args)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/utils.py", line 690, in wrapper
+    response = f(*args, **kwargs)
+  File "/Users/Ryan/SQOIN/grant_solana/llm/compiler_app.py", line 17, in submit
+    }
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5007): Max retries exceeded with url: /deploy (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12a990dc0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+
+Questioning phase
+
+
+
+Exception during Claude request : Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}}
+
+
+Switching to OpenAI
+
+
+
+Exception during openAI request : Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-NEpoJ***************************************lxHl. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+
+GPT-4 request failed, falling back to GPT-3.5: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-NEpoJ***************************************lxHl. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/queueing.py", line 501, in call_prediction
+    output = await route_utils.call_process_api(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/route_utils.py", line 252, in call_process_api
+    output = await app.get_blocks().process_api(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/blocks.py", line 1664, in process_api
+    result = await self.call_function(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/blocks.py", line 1205, in call_function
+    prediction = await anyio.to_thread.run_sync(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/anyio/to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/anyio/_backends/_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/anyio/_backends/_asyncio.py", line 807, in run
+    result = context.run(func, *args)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/utils.py", line 690, in wrapper
+    response = f(*args, **kwargs)
+  File "app.py", line 77, in respond
+  File "/Users/Ryan/SQOIN/grant_solana/llm/inference_functions.py", line 124, in claude_prompt
+  File "/Users/Ryan/SQOIN/grant_solana/llm/inference_functions.py", line 69, in openai_prompt
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/openai/_utils/_utils.py", line 301, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/openai/resources/chat/completions.py", line 598, in create
+    return self._post(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/openai/_base_client.py", line 1096, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/openai/_base_client.py", line 856, in request
+    return self._request(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/openai/_base_client.py", line 908, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-NEpoJ***************************************lxHl. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+Questioning phase
+
+
+
+Exception during Claude request : Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}}
+
+
+Switching to OpenAI
+
+
+
+Exception during openAI request : Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-NEpoJ***************************************lxHl. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+
+GPT-4 request failed, falling back to GPT-3.5: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-NEpoJ***************************************lxHl. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/queueing.py", line 501, in call_prediction
+    output = await route_utils.call_process_api(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/route_utils.py", line 252, in call_process_api
+    output = await app.get_blocks().process_api(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/blocks.py", line 1664, in process_api
+    result = await self.call_function(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/blocks.py", line 1205, in call_function
+    prediction = await anyio.to_thread.run_sync(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/anyio/to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/anyio/_backends/_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/anyio/_backends/_asyncio.py", line 807, in run
+    result = context.run(func, *args)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/gradio/utils.py", line 690, in wrapper
+    response = f(*args, **kwargs)
+  File "app.py", line 77, in respond
+  File "/Users/Ryan/SQOIN/grant_solana/llm/inference_functions.py", line 124, in claude_prompt
+  File "/Users/Ryan/SQOIN/grant_solana/llm/inference_functions.py", line 69, in openai_prompt
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/openai/_utils/_utils.py", line 301, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/openai/resources/chat/completions.py", line 598, in create
+    return self._post(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/openai/_base_client.py", line 1096, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/openai/_base_client.py", line 856, in request
+    return self._request(
+  File "/Users/Ryan/Library/Python/3.8/lib/python/site-packages/openai/_base_client.py", line 908, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-NEpoJ***************************************lxHl. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
