@@ -1,6 +1,16 @@
 # NovaScript Demo
 
 This repository contains a demo for NovaScript compilation and deployment onchain using Gradio.
+
+![Error](/screenshots/options1)
+![Error](/screenshots/chat1)
+![Error](/screenshots/chat2)
+![Error](/screenshots/chat3)
+![Error](/screenshots/chat4)
+![Error](/screenshots/demo1)
+<!-- ![Error](/screenshots/options1)
+![Error](/screenshots/options1) -->
+
 ## Prerequisites
 
 Before running the project, ensure you have the following:
