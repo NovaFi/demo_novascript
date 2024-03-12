@@ -15,7 +15,7 @@ def chat_tab(params_component):
                     show_copy_button=True,
                     show_share_button=True,
                     # Default message to start the chat
-                    value=[[None, "Let's start building your strategy !\n\nPlease describe to me what type of X strategy you would like to implement using A,B,C platforms."]]
+                    value=[[None, "please describe your strategy, or start a conversation to build your strategy together"]]
                 )
 
                 # Textbox for user to input their message
@@ -46,7 +46,7 @@ def chat_tab(params_component):
                     interactive=True,
                     value="Bash commands will be displayed here",
                     visible=True,
-                    lines=2,
+                    lines=10,
                     render=True,
                 )
 

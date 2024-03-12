@@ -8,12 +8,13 @@ import functions.extract_functions as extract_functions
 import os
 
 def skip_to_script(message, history, parameters, logic, conversation_phase, skip_tries):
+    print(f"Skip tries : {skip_tries}")
     # Check if the user has already tried to skip or if all questions have been asked
     if skip_tries != "Already tried" and skip_tries != "All done":
         # Warn that there are still questions to be asked
         gr.Warning("We still have questions to ask")
         time.sleep(2)  # Wait for 2 seconds
-        gr.Info("Click again to skip anyways")
+        gr.Info("Click on 'Generate NovaScript' again to proceed anyway")
         
         skip_tries = "Already tried"  # Update the skip tries status
         # Return without making any changes, but update the skip_tries status
@@ -48,7 +49,7 @@ def respond(message, history, parameters, logic, conversation_phase, skipping=Fa
         history.append((message, "No API key provided, check .env please"))
         return "", history, None, None, logic, conversation_phase, skip_tries
         
-    if "TERMINATE" in response and not "TERMINATE?" in response:
+    if "READY" in response and not "READY?" in response:
         print("\n\nTerminating ...\n\n")
         skip_tries = "All done"  # Update skip_tries to allow generating novascript
         logic_extracted = extract_functions.extract_logic(response)
