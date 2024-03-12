@@ -25,6 +25,7 @@ prompt_params = gr.Text(
             visible=True  # Make the component visible
         )
 
+
 # Create a Gradio app with a monochrome theme
 with gr.Blocks(theme=gr.themes.Monochrome()) as app:
     # Define a tabbed interface

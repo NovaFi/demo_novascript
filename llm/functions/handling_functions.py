@@ -2,13 +2,11 @@ import gradio as gr
 from datetime import datetime
 import csv
 import os
+import sys
 
 def feedback_func(navigation, guidance, accuracy, interface, confusion_cause, favorite, more):
-    # Import the main app module to access shared variables or settings
-    import app
 
-    # Retrieve the feedback file path from the app module
-    filename = app.feedback_path
+    filename = "data/feedback.csv"
     
     # Check if the feedback file already exists to determine if headers are needed
     file_exists = os.path.isfile(filename)

@@ -1,6 +1,13 @@
 import requests
 from openai import OpenAI
 import anthropic
+from dotenv import load_dotenv
+import os
+
+
+# Load environment variables from .env file
+load_dotenv()
+
 # -------------------------------------------------------------
 # ___________________________ Llama ___________________________
 # _____________________________________________________________
@@ -48,7 +55,7 @@ def openai_prompt(prompt, systemPrompt="", history =[]) :
     chatHistory.append({"role" : "user", "content" : prompt}) # Add the new question
     # input_token_count += len(prompt.split())
 
-    client = OpenAI(api_key="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")
+    client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
     try:
         # Attempt to use GPT-4 model
@@ -103,7 +110,7 @@ def claude_prompt(prompt, systemPrompt="", history =[]) :
 
     client = anthropic.Anthropic(
         # defaults to os.environ.get("ANTHROPIC_API_KEY")
-        api_key="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",
+        api_key=os.getenv('CLAUDE_API_KEY'),
     )
 
     try:
