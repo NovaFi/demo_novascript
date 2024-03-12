@@ -5,6 +5,7 @@ from datetime import datetime
 import utils
 import functions.inference_functions as inference_functions
 import functions.extract_functions as extract_functions
+import os
 
 def skip_to_script(message, history, parameters, logic, conversation_phase, skip_tries):
     # Check if the user has already tried to skip or if all questions have been asked
@@ -35,9 +36,18 @@ def respond(message, history, parameters, logic, conversation_phase, skipping=Fa
         print("\nGeneration phase\n")
         systemPrompt = f"Context : {utils.systemPrompt_expert} \n Parameters : {parameters}"
     
+    
     # Call the inference function with the provided message and system prompt
-    response = inference_functions.claude_prompt(prompt=message, systemPrompt=systemPrompt, history=history)
+    if (os.getenv('CLAUDE_API_KEY') != "" and not os.getenv('CLAUDE_API_KEY') is None):
+        response = inference_functions.claude_prompt(prompt=message, systemPrompt=systemPrompt, history=history)
+        
+    elif (os.getenv("OPENAI_API_KEY") != "" and not os.getenv('OPENAI_API_KEY') is None) :
+        response = inference_functions.openai_prompt(prompt=message, systemPrompt=systemPrompt, history=history)
 
+    else : # In case no API KEY is provided
+        history.append((message, "No API key provided, check .env please"))
+        return "", history, None, None, logic, conversation_phase, skip_tries
+        
     if "TERMINATE" in response and not "TERMINATE?" in response:
         print("\n\nTerminating ...\n\n")
         skip_tries = "All done"  # Update skip_tries to allow generating novascript
