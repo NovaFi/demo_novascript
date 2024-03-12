@@ -8,11 +8,13 @@ import os
 import re
 import utils
 import functions.inference_functions as inference_functions
-import compiler_app
+import tabs_interfaces.demo_tab
 import functions.extract_functions as extract_functions
 import functions.respond_functions as respond_functions
-import functions.handling_functions as handling_functions
-import interfaces
+import tabs_interfaces.chat_tab
+import tabs_interfaces.feedback_tab
+import tabs_interfaces.options_tab
+import tabs_interfaces.starting_tab
 
 # Define the path to the feedback CSV file
 filename = 'data/feedback.csv'
@@ -32,30 +34,30 @@ with gr.Blocks(theme=gr.themes.Monochrome()) as app:
     with gr.Tabs() as tabs:
         # Define the first tab as the starting point
         with gr.TabItem("Start here", id=0):
-            interfaces.starting_tab()  # Render the starting tab's interface
+            tabs_interfaces.starting_tab.starting_tab()  # Render the starting tab's interface
 
         # Define the second tab for the first step
         with gr.TabItem("Step 1", id=1):
             # Render options tab within a column layout
             with gr.Column():
-                interfaces.options_tab.render()
+                tabs_interfaces.options_tab.options_tab.render()
                 
                 # Define a submit button
                 submit_btn = gr.Button("Submit", visible=True)
                 # Specify the action for the button click, linking to options_func function
                 submit_btn.click(
-                    fn=handling_functions.options_func,
-                    inputs=interfaces.options_tab.input_components,
+                    fn=tabs_interfaces.options_tab.options_func,
+                    inputs=tabs_interfaces.options_tab.options_tab.input_components,
                     outputs=[tabs, prompt_params]
                 )
             
         # Define the third tab for the second step
         with gr.Tab("Step 2", id=2):
-            interfaces.chat_tab(params_component=prompt_params)  # Render chat tab with prompt_params component
+            tabs_interfaces.chat_tab.chat_tab(params_component=prompt_params)  # Render chat tab with prompt_params component
 
         # Define the fourth tab for the third step
         with gr.Tab("Step 3", id=3):
-            compiler_app.code_submit_component.render()  # Render the code submission component
+            tabs_interfaces.demo_tab.code_submit_component.render()  # Render the code submission component
         
         # Define the fifth tab for collecting feedback
         with gr.Tab("Feedback", id=4):
@@ -63,7 +65,7 @@ with gr.Blocks(theme=gr.themes.Monochrome()) as app:
                 # Display feedback form instructions or text
                 gr.Markdown(utils.feedback_tab_HTML)
 
-                interfaces.feedback_tab.render()  # Render the feedback form
+                tabs_interfaces.feedback_tab.feedback_tab.render()  # Render the feedback form
 
 # Launch the app with specified height and sharing options
 app.launch(share=True)

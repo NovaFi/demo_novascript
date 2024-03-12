@@ -1,6 +1,5 @@
 import gradio as gr
 import functions.respond_functions as respond_functions
-import functions.handling_functions as handling_functions
 import utils
 
 def chat_tab(params_component):
@@ -67,42 +66,3 @@ def chat_tab(params_component):
 
             # Click action for the generate script button
             generate_script_btn.click(respond_functions.skip_to_script, inputs=[msg, chatbot, prompt_params, prompt_params, conversation_phase, skip_tries], outputs=[msg, chatbot, code_novascript, code_bash, prompt_params, conversation_phase, skip_tries], js=utils.autoscroll_JS)
-
-# Options tab interface definition
-options_tab = gr.Interface(
-    fn=handling_functions.options_func,
-    clear_btn=gr.Button(visible=False),
-    submit_btn=gr.Button(visible=False),
-    inputs=[
-        # Various input components for strategy options
-        gr.Markdown(utils.options_tab_HTML),
-        gr.Radio(["Dollar Cost Average", "Take Profit", "Solana Staking"], label="What strategy would you like to program ?", info="This will lay the foundation for the automation logic"),
-        gr.Text(label="How much would you like to invest in this strategy ?", info="Type the corresponding USD value", placeholder="$0.00"),
-        gr.Dropdown(["Marginfi", "Kamino", "Orca", "Raydium", "Solend", "Mango", "Drift", "Marinade", "Sol Blaze", "Jito", "Meteora", "Parcl", "Hubble", "UXD"], label="Which platform will this strategy use ?", info="This information allows novascript to connect to the platform's API", multiselect=True, allow_custom_value=True),
-        gr.Radio(["USDC", "USDH", "UXD"], label="What stablecoin would you like to use ?", info="Select a stablecoin"),
-        gr.Radio(["SOL", "JitoSol", "mSOL", "BTC", "ETH"], label="What crypto asset would you like to invest with ?", info="Select a crypto asset"),
-    ],
-    outputs=[],
-)
-
-# Feedback tab interface definition
-feedback_tab = gr.Interface(
-    fn=handling_functions.feedback_func,
-    inputs=[
-        # Various input components for collecting feedback
-        gr.Radio(label="How satisfied are you with the ease of navigating through the interface?", choices=["Very dissatisfied", "Dissatisfied", "Neutral", "Satisfied", "Very satisfied"]),
-        gr.Radio(label="How satisfied are you with the guidance provided by the AI?", choices=["Very dissatisfied", "Dissatisfied", "Neutral", "Satisfied", "Very satisfied"]),
-        gr.Radio(label="Based on your initial goal, how satisfied are you with the accuracy of the strategy generated?", choices=["Very dissatisfied", "Dissatisfied", "Neutral", "Satisfied", "Very satisfied"]),
-        gr.Radio(label="Overall, how satisfied are you with your experience using this interface?", choices=["Very dissatisfied", "Dissatisfied", "Neutral", "Satisfied", "Very satisfied"]),
-        gr.Textbox(label="What caused you the most confusion or frustration in this process ?", placeholder="Type here"),
-        gr.Textbox(label="What did you like the most about the process?", placeholder="Type here"),
-        gr.Textbox(label="Do you have any more feedback?", placeholder="Type here", lines=5),
-    ],
-    outputs=None,
-)
-
-# Starting tab content definition
-def starting_tab():
-    with gr.Column():
-        # Display the starting page HTML content
-        gr.Markdown(utils.starting_page_HTML)
