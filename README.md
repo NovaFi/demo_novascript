@@ -1,13 +1,20 @@
 # NovaScript Demo
 
-This repository contains a demo for NovaScript compilation and deployment onchain using Gradio.
+## Intro 
+This repository introduces an innovative tool that combines Large Language Models (LLMs) with blockchain to help users create and deploy personalized investment strategies. It simplifies the process of strategy development by using AI to analyze user preferences and market data, then automatically compiles and executes the strategy on the blockchain for a secure and efficient investment experience.
 
-<!-- ![Error](/screenshots/options1.png)
-![Error](/screenshots/chat1.png)
-![Error](/screenshots/chat2.png)
-![Error](/screenshots/chat3.png)
-![Error](/screenshots/chat4.png)
-![Error](/screenshots/demo1.png) -->
+
+## Screenshots
+<p float="left">
+  <img src="/screenshots/options1.png" width="200" style="margin-right: 10px;" />
+  <img src="/screenshots/chat1.png" width="200" style="margin-right: 10px;" /> 
+  <img src="/screenshots/chat2.png" width="200" style="margin-right: 10px;" />
+  <br><br>
+  <img src="/screenshots/chat3.png" width="200" style="margin-right: 10px;" />
+  <img src="/screenshots/chat4.png" width="200" style="margin-right: 10px;" />
+  <img src="/screenshots/demo1.png" width="200" /> <!-- No margin for the last image -->
+</p>
+
 
 <!-- ![Error](/screenshots/options1)
 ![Error](/screenshots/options1) -->
