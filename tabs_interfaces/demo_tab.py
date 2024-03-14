@@ -32,19 +32,31 @@ def submit(code):
         return "error", "error"
     
     # Return the formatted code and deployment result URL
-    return "\n".join(json_response["code"]), json_response["deploymentResult"]["explorerUrl"]
+    # return "\n".join(json_response["code"]), json_response["deploymentResult"]["explorerUrl"]
+
+    return "\n".join(json_response["code"]), gr.Button("View on BlockChain explorer", link = json_response["deploymentResult"]["explorerUrl"])
+
+link = gr.Markdown(visible = False)
 
 # Create a Gradio interface for code submission
 code_submit_component = gr.Interface(
     fn=submit,  # Function to be called when the interface is used
     inputs=gr.Code(
-        value="Write your code here...",  # Default text in the code input area
+        label = "Code",
+        value="// Try typing something like...\n// print(5 + 2)",  # Default text in the code input area
         language="javascript",  # Language for syntax highlighting
         interactive=True,  # Specifies whether the input is interactive
     ),
     outputs=[
-        gr.Code(),  # Output field for processed code
-        gr.Markdown()  # Output field for the deployment result as Markdown text
+        gr.Code(
+            label = "Compiled"
+        ),  # Output field for processed code
+        # gr.Markdown()  # Output field for the deployment result as Markdown text
+
+        gr.Button(
+            "View on BlockChain explorer",
+            link = None,
+        )
     ],
     allow_flagging="never",  # Disable flagging of submissions
     title="Code Executor",  # Title of the interface

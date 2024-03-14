@@ -15,7 +15,7 @@ def chat_tab(params_component):
                     show_copy_button=True,
                     show_share_button=True,
                     # Default message to start the chat
-                    value=[[None, "please describe your strategy, or start a conversation to build your strategy together"]]
+                    value=[[None, "Please describe your strategy"]]
                 )
 
                 # Textbox for user to input their message
