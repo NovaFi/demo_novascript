@@ -59,7 +59,7 @@ code_submit_component = gr.Interface(
         )
     ],
     allow_flagging="never",  # Disable flagging of submissions
-    title="Code Executor",  # Title of the interface
-    description="Write code in the block and press submit to see the result.",  # Description of the interface's purpose
+    title="Deploy NovaScript on-chain",  # Title of the interface
+    description="See how NovaScript commands can be compiled and deployed directly on-chain in milliseconds.",  # Description of the interface's purpose
     examples=["print(5 * 10)", "print(21 / 3)"],  # Examples to demonstrate usage
 )
