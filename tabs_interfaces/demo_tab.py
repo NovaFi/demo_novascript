@@ -60,6 +60,6 @@ code_submit_component = gr.Interface(
     ],
     allow_flagging="never",  # Disable flagging of submissions
     title="Deploy NovaScript on-chain",  # Title of the interface
-    description="See how NovaScript commands can be compiled and deployed directly on-chain in milliseconds.",  # Description of the interface's purpose
+    description="See how NovaScript commands can be compiled and deployed directly on-chain. \nPlease keep refreshing the explorer tab until you can see the transaction appear",  # Description of the interface's purpose
     examples=["print(5 * 10)", "print(21 / 3)"],  # Examples to demonstrate usage
 )
